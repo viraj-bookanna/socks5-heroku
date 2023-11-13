@@ -27,13 +27,5 @@
             "description": "Auth password",
             "value": ""
         }
-    },
-    "formation":
-    {
-        "worker":
-        {
-            "quantity": 1,
-            "size": "free"
-        }
     }
 }
