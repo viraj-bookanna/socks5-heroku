@@ -1,5 +1,5 @@
-FROM virajccx/custom-linux:latest
-
-COPY . .
-RUN pip install -r requirements.txt
-CMD ["python3", "proxy.py"]
+FROM teddysun/xray
+ENV TZ=Asia/Colombo
+ADD xray.sh /
+RUN chmod +x /xray.sh
+CMD /xray.sh

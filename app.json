@@ -9,23 +9,5 @@
     "website": "https://github.com/viraj-bookanna/socks5-heroku",
     "logo": "https://telegra.ph/file/a972ad30870f123207fdb.png",
     "repository": "https://github.com/viraj-bookanna/socks5-heroku",
-    "stack": "container",
-    "env":
-    {
-        "USE_AUTH":
-        {
-            "description": "True for using proxy auth, False for no auth",
-            "value": "False"
-        },
-        "USERNAME":
-        {
-            "description": "Auth username",
-            "value": ""
-        },
-        "PASSWORD":
-        {
-            "description": "Auth password",
-            "value": ""
-        }
-    }
+    "stack": "container"
 }
