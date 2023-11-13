@@ -321,9 +321,9 @@ if __name__ == '__main__':
     # Options are completely optional
     options = {
         #'auth': ("username", "password"), # default = not set
-        #'listen_ip': "0.0.0.0", # default = "0.0.0.0"
+        'listen_ip': "0.0.0.0", # default = "0.0.0.0"
         'port': int(os.getenv('PORT', '1080')), # default = 1080
-        #'bind_address': "0.0.0.0", # default = not set
+        'bind_address': "0.0.0.0", # default = not set
     }
     if os.getenv('USE_AUTH', 'False')=='True':
         options['auth'] = (os.getenv('USERNAME', "username"), os.getenv('PASSWORD', "password"))
